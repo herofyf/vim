@@ -9,7 +9,7 @@ filetype plugin indent on
 """""""""""""""""""""""""""
 " use vundle
 """"""""""""""""""""""""""""
-source $HOME/vimfiles/bundle/vundle_vimrc
+source ~/.vim/vundle_vimrc
 
 
 " make  backspace work like most other apps
@@ -52,6 +52,9 @@ set mouse=a
 "set selection=exclusive
 "set selectmode=mouse,key
 "set fdm=indent
+
+" to print unprint character, off: set nolist
+set list
 
 set incsearch
 
@@ -109,7 +112,11 @@ imap <C-j>  <C-O>j
 imap <C-l>  <C-O>l
 
 " to open conque emulator
-nmap <silent> <C-t> :ConqueTermSplit cmd<cr>
+if has("win32") || has("win16")
+	nmap <silent> <C-t> :ConqueTermSplit cmd<cr>
+elseif has("unix")
+	nmap <silent> <C-t> :ConqueTermSplit bash<cr>
+endif
 nmap <silent> <C-n> :close<cr>
 " to close  :close
 
