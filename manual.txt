@@ -1,0 +1,37 @@
+download vim for windows 64 : https://tuxproject.de/projects/vim/
+
+1. 使用
+1.1 resize:
+	shift + left/right
+
+1.2 NerdTree
+	c-w c-t : to open
+	c-w c-f: to first window of this windows mananger
+	c-w c-b: to bottom window of this windows manager
+
+1.3 conqueterm:
+	ctrl - t : open command
+	ctrl - n : close
+
+1.4 Vundle  
+ Brief help  
+ :PluginList       - lists configured plugins  
+ :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate  
+ :PluginSearch foo - searches for foo; append `!` to refresh local cache  
+ :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal  
+ 
+1.5 Fatih/vim-go
+ set GOPATH to run GVIM
+ :GoInstallBinaries 
+
+ 
+ 1.6 in  
+
+
+
+
+  
+  
+  
+
+ 

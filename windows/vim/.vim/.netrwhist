@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='d:\Documents\myCodes\go'
+let g:netrw_dirhist_2='d:/Documents/myCodes/go/src'
+let g:netrw_dirhist_3='d:/Documents/myCodes/go/src/TestCases'
+let g:netrw_dirhist_4='d:\Documents\myCodes\GO'
+let g:netrw_dirhist_5='d:/Documents/myCodes/GO/src'
+let g:netrw_dirhist_6='d:/Documents/myCodes/GO/src/TestCases'
