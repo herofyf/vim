@@ -1,4 +1,7 @@
-download vim for windows 64 : https://tuxproject.de/projects/vim/
+download vim for windows 64 : https://tuxproject.de/projects/vim/ (the vim root is installation directory in windows)
+
+in linux is .vim
+
 
 download and install vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
