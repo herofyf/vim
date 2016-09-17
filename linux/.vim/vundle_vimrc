@@ -13,7 +13,7 @@ elseif has("unix")
 endif
 
 
-
+" plugin from http://vim-scripts.org/vim/scripts.html
 Bundle 'L9'
 Bundle 'winmanager'
 Bundle 'bufexplorer.zip'
@@ -24,9 +24,27 @@ Bundle 'fatih/vim-go'
 " the files is in https://github.com/rosenfeld/conque-term, so the last 2 parts
 Bundle 'rosenfeld/conque-term'
 
+" The following are examples of different formats supported.
+" Keep Plugin commands between vundle#begin/end.
+" plugin on GitHub repo
+Bundle 'tpope/vim-fugitive'
+" Git plugin not hosted on GitHub
+Bundle 'git://git.wincent.com/command-t.git'
+" git repos on your local machine (i.e. when working on your own plugin)
+"Bundle 'file:///home/gmarik/path/to/plugin'
+" The sparkup vim script is in a subdirectory of this repo called vim.
+" Pass the path to set the runtimepath properly.
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Install L9 and avoid a Naming conflict if you've already installed a
+" different version somewhere else.
+Bundle 'ascenator/L9', {'name': 'newL9'}
+
 if has("unix")
 	"Bundle 'Valloric/YouCompleteMe'
 	call vundle#end()
 endif
+
+
+
 
 filetype plugin indent on     " required!
