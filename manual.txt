@@ -1,10 +1,11 @@
 download vim for windows 64 : https://tuxproject.de/projects/vim/ (the vim root is installation directory in windows)
 
 in linux is .vim
-
-
 download and install vundle: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
+		cd ~
+		wget https://github.com/herofyf/vim/blob/master/linux/.vimrc
+		cd ~/.vim
+		https://github.com/herofyf/vim/blob/master/linux/.vim/vundle_vimrc
 1. 使用
 1.1 resize:
 	shift + left/right
