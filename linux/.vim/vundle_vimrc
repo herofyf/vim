@@ -12,7 +12,7 @@ elseif has("unix")
 	call vundle#begin()
 endif
 
-
+"https://github.com/VundleVim/Vundle.vim#about
 " plugin from http://vim-scripts.org/vim/scripts.html
 Bundle 'L9'
 Bundle 'winmanager'
