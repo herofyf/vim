@@ -21,6 +21,9 @@ Bundle 'The-NERD-tree'
 
 Bundle 'fatih/vim-go' 
 
+" the files is in https://github.com/rosenfeld/conque-term, so the last 2 parts
+Bundle 'rosenfeld/conque-term'
+
 if has("unix")
 	"Bundle 'Valloric/YouCompleteMe'
 	call vundle#end()
